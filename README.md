@@ -11,14 +11,17 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 npm install --save @fishingbooker/browser-sync-plugin
 ```
-
+In `webpack.config.js` insert this snippet.
 ```jsx
 const BrowserSyncPlugin = require("@fishingbooker/browser-sync-plugin");
 
 const url = "www.google.com"; //Enter your developement url
 const browserSyncPlugin = new BrowserSyncPlugin({url});
-...
-plugins: [browserSyncPlugin]
+
+module.exports = {
+    ...
+    plugins: [browserSyncPlugin]
+}
 ```
 
 

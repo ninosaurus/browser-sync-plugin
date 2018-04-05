@@ -1,6 +1,6 @@
 {
   "name": "@fishingbooker/browser-sync-plugin",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Browser automaticly open page with default browser when webpack finish compiling",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "browser-reload"
   ],
   "author": "Valentin Hisari <hisari.valentin@gmail.com>",
-  "git": "https://github.com/ninosaurus/browser-sync-plugin.git",
+  "homepage": "https://github.com/ninosaurus/browser-sync-plugin.git",
   "license": "ISC",
   "dependencies": {
     "opn": "^5.3.0"
