@@ -1,6 +1,6 @@
 {
   "name": "@fishingbooker/browser-sync-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser automaticly open page with default browser when webpack finish compiling",
   "main": "index.js",
   "scripts": {
